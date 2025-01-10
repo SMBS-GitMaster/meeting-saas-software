@@ -1,0 +1,1 @@
+export const MEETING_TITLES_CHAR_LIMIT = 255

@@ -1,0 +1,20 @@
+import type { GridStackOptions } from 'gridstack'
+
+export const QUARTERLY_ALIGNEMNT_WORKSPACE_GRID_INIT_OPTS: GridStackOptions = {
+  cellHeight: 48,
+  column: 12,
+  columnOpts: { breakpoints: [{ w: 768, c: 1 }] },
+  float: true,
+  margin: 10,
+}
+
+export const CORE_VALUES_TILE_EXPANDED_HEIGHT = 5
+export const CORE_VALUES_TILE_COLLAPSED_HEIGHT = 2
+
+export const QUARTERLY_ALIGNEMNT_WORKSPACE_TODOS_EXPANDED_TILE_HEIGHT = 11
+export const QUARTERLY_ALIGNEMNT_WORKSPACE_TODOS_EXPANDED_TILE_TODOS_LIST_HEIGHT = 22
+export const QUARTERLY_ALIGNEMNT_WORKSPACE_TODOS_EXPANDED_TILE_COLLAPSED_HEIGHT = 2
+
+export const USER_ROLES_TILE_RR_TAB_ID = 'USER_ROLES_TILE_RR_TAB_ID'
+export const USER_TODOS_TILE_RR_TAB_ID = 'USER_TODOS_TILE_RR_TAB_ID'
+export const USER_METRICS_TILE_RR_TAB_ID = 'USER_METRICS_TILE_RR_TAB_ID'

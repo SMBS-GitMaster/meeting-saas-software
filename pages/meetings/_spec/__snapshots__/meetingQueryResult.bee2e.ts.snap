@@ -1,0 +1,1255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a request for the data required for the meeting page works: meeting-page-query1-data 1`] = `
+{
+  "data": {
+    "meeting": {
+      "currentMeetingInstance": null,
+      "id": "89861",
+      "ratingPrivacy": "ANONYMOUS",
+      "reverseMetrics": true,
+      "type": "meeting",
+    },
+  },
+  "error": undefined,
+}
+`;
+
+exports[`a request for the data required for the meeting page works: meeting-page-query2-data 1`] = `
+{
+  "data": {
+    "bloomLookupNode": {
+      "classicCheckinTitle": "<Mock data>",
+      "iceBreakers": [
+        "",
+      ],
+      "id": "-1",
+      "tipOfTheWeek": "",
+      "type": "bloomLookupNode",
+    },
+    "currentUser": {
+      "avatar": null,
+      "firstName": "Aleksandar",
+      "fullName": "Aleksandar Cvijovic",
+      "id": "635886",
+      "lastName": "Cvijovic",
+      "numViewedNewFeatures": 0,
+      "timezone": "0",
+      "type": "user",
+    },
+    "meeting": {
+      "attendees": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [
+          {
+            "avatar": null,
+            "firstName": "Aleksandar",
+            "fullName": "Aleksandar Cvijovic",
+            "id": "635886",
+            "isLeader": false,
+            "isPresent": false,
+            "isUsingV3": true,
+            "lastName": "Cvijovic",
+    
+            "meetingInstanceAttendee": {
+              "hasVotedForIssues": false,
+              "id": "635886",
+      
+              "type": "meetingInstanceAttendee",
+              "user": {
+                "id": "635886",
+        
+                "type": "user",
+              }, 
+            },
+            "permissions": {
+              "admin": true,
+              "edit": true,
+              "view": true,
+            },
+            "type": "meetingAttendee",
+          },
+        ],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [
+          {
+            "avatar": null,
+            "firstName": "Aleksandar",
+            "fullName": "Aleksandar Cvijovic",
+            "id": "635886",
+            "isLeader": false,
+            "isPresent": false,
+            "isUsingV3": true,
+            "lastName": "Cvijovic",
+    
+            "meetingInstanceAttendee": {
+              "hasVotedForIssues": false,
+              "id": "635886",
+      
+              "type": "meetingInstanceAttendee",
+              "user": {
+                "id": "635886",
+        
+                "type": "user",
+              },
+            },
+            "permissions": {
+              "admin": true,
+              "edit": true,
+              "view": true,
+            },
+            "type": "meetingAttendee",
+          },
+        ],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": "MA==",
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": "MA==",
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "attendeesForAgenda": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 5,
+        },
+        "items": [
+          {
+            "avatar": null,
+            "firstName": "Aleksandar",
+            "fullName": "Aleksandar Cvijovic",
+            "id": "635886",
+            "isLeader": false,
+            "isPresent": false,
+            "lastName": "Cvijovic",
+    
+            "meetingInstanceAttendee": {
+              "hasVotedForIssues": false,
+              "id": "635886",
+      
+              "type": "meetingInstanceAttendee",
+              "user": {
+                "id": "635886",
+        
+                "type": "user",
+              },
+            },
+            "permissions": {
+              "admin": true,
+              "edit": true,
+              "view": true,
+            },
+            "type": "meetingAttendee",
+          },
+        ],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [
+          {
+            "avatar": null,
+            "firstName": "Aleksandar",
+            "fullName": "Aleksandar Cvijovic",
+            "id": "635886",
+            "isLeader": false,
+            "isPresent": false,
+            "lastName": "Cvijovic",
+    
+            "meetingInstanceAttendee": {
+              "hasVotedForIssues": false,
+              "id": "635886",
+      
+              "type": "meetingInstanceAttendee",
+              "user": {
+                "id": "635886",
+        
+                "type": "user",
+              },
+            },
+            "permissions": {
+              "admin": true,
+              "edit": true,
+              "view": true,
+            },
+            "type": "meetingAttendee",            
+          },
+        ],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": "MA==",
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": "MA==",
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": 1,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "completedIssues": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": 0,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "currentMeetingAttendee": {
+        "id": "635886",
+
+        "permissions": {
+          "admin": true,
+          "edit": true,
+          "view": true,
+        },
+        "type": "meetingAttendee",
+      },
+      "currentMeetingInstance": null,
+      "longTermIssue": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "expectedMeetingDurationFromAgendaInMinutes": 90,
+      "goals": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "headlines": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [
+          {
+            "archived": false,
+            "archivedTimestamp": null,
+            "assignee": {
+              "avatar": null,
+              "firstName": "Aleksandar",
+              "fullName": "Aleksandar Cvijovic",
+              "id": "635886",
+              "lastName": "Cvijovic",
+      
+              "type": "user",
+            },
+            "dateCreated": 1688406737,
+            "id": "1809541",
+    
+            "notesId": "cda93101-b31a-4cad-96ee-b4769c628f64",
+            "title": "Alex OOO 7/5",
+            "type": "headline",
+          },
+        ],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [
+          {
+            "archived": false,
+            "archivedTimestamp": null,
+            "assignee": {
+              "avatar": null,
+              "firstName": "Aleksandar",
+              "fullName": "Aleksandar Cvijovic",
+              "id": "635886",
+              "lastName": "Cvijovic",
+      
+              "type": "user",
+            },
+            "dateCreated": 1688406737,
+            "id": "1809541",
+    
+            "notesId": "cda93101-b31a-4cad-96ee-b4769c628f64",
+            "title": "Alex OOO 7/5",
+            "type": "headline",
+          },
+        ],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": "MA==",
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": "MA==",
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "highlightPreviousWeekForMetrics": true,
+      "id": "89861",
+      "instancesForTheQuarter": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [
+          {
+            "dateCreated": 1688391942,
+            "id": "1774635",
+            "issuesSolvedCount": 0,
+    
+            "type": "meetingInstance",           
+          },
+        ],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [
+          {
+            "dateCreated": 1688391942,
+            "id": "1774635",
+            "issuesSolvedCount": 0,
+    
+            "type": "meetingInstance",
+          },
+        ],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": "MA==",
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": "MA==",
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "issueVoting": "PRIORITY",
+      "issuesForWrapUp": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "issuesSentTo": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "meetingInstancesForMeetingStats": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2,
+        },
+        "items": [
+          {
+            "attendeeInstances": NodesCollection {
+              "clientSidePageInfo": {
+                "lastQueriedPage": 1,
+                "pageSize": 2000,
+              },
+              "items": [],
+              "loadingError": null,
+              "loadingState": "IDLE",
+              "nodes": [],
+              "onGoToNextPage": [Function],
+              "onGoToPreviousPage": [Function],
+              "onLoadMoreResults": [Function],
+              "onPaginationRequestStateChanged": [Function],
+              "pageInfoFromResults": {
+                "__typename": "PageInfo",
+                "endCursor": null,
+                "hasNextPage": false,
+                "hasPreviousPage": false,
+                "startCursor": null,
+              },
+              "pagesBeingDisplayed": [
+                1,
+              ],
+              "totalCount": undefined,
+              "useServerSidePaginationFilteringSorting": true,
+            },
+            "attendees": NodesCollection {
+              "clientSidePageInfo": {
+                "lastQueriedPage": 1,
+                "pageSize": 2000,
+              },
+              "items": [
+                {
+                  "id": "635886",
+          
+                  "meetingInstanceAttendee": {
+                    "id": "635886",
+            
+                    "notesText": null,
+                    "type": "meetingInstanceAttendee",
+                    "user": {
+                      "avatar": null,
+                      "firstName": "Aleksandar",
+                      "fullName": "Aleksandar Cvijovic",
+                      "id": "635886",
+                      "lastName": "Cvijovic",
+              
+                      "type": "user",                     
+                    },                   
+                  },
+                  "type": "meetingAttendee",                 
+                },
+              ],
+              "loadingError": null,
+              "loadingState": "IDLE",
+              "nodes": [
+                {
+                  "id": "635886",
+          
+                  "meetingInstanceAttendee": {
+                    "id": "635886",
+            
+                    "notesText": null,
+                    "type": "meetingInstanceAttendee",
+                    "user": {
+                      "avatar": null,
+                      "firstName": "Aleksandar",
+                      "fullName": "Aleksandar Cvijovic",
+                      "id": "635886",
+                      "lastName": "Cvijovic",
+              
+                      "type": "user",                      
+                    },                   
+                  },
+                  "type": "meetingAttendee",                 
+                },
+              ],
+              "onGoToNextPage": [Function],
+              "onGoToPreviousPage": [Function],
+              "onLoadMoreResults": [Function],
+              "onPaginationRequestStateChanged": [Function],
+              "pageInfoFromResults": {
+                "__typename": "PageInfo",
+                "endCursor": "MA==",
+                "hasNextPage": false,
+                "hasPreviousPage": false,
+                "startCursor": "MA==",
+              },
+              "pagesBeingDisplayed": [
+                1,
+              ],
+              "totalCount": undefined,
+              "useServerSidePaginationFilteringSorting": true,
+            },
+            "averageMeetingRating": 0,
+            "dateCreated": 1688391942,
+            "id": "1774635",
+            "issuesSolvedCount": 0,
+    
+            "meetingConcludedTime": 1688406792,
+            "meetingDurationInSeconds": 69,
+            "meetingStartTime": 1688406723,
+            "ratingPrivacy": "Anonymous",
+            "todosCompletedPercentage": 0,
+            "type": "meetingInstance",            
+          },
+        ],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [
+          {
+            "attendeeInstances": NodesCollection {
+              "clientSidePageInfo": {
+                "lastQueriedPage": 1,
+                "pageSize": 2000,
+              },
+              "items": [],
+              "loadingError": null,
+              "loadingState": "IDLE",
+              "nodes": [],
+              "onGoToNextPage": [Function],
+              "onGoToPreviousPage": [Function],
+              "onLoadMoreResults": [Function],
+              "onPaginationRequestStateChanged": [Function],
+              "pageInfoFromResults": {
+                "__typename": "PageInfo",
+                "endCursor": null,
+                "hasNextPage": false,
+                "hasPreviousPage": false,
+                "startCursor": null,
+              },
+              "pagesBeingDisplayed": [
+                1,
+              ],
+              "totalCount": undefined,
+              "useServerSidePaginationFilteringSorting": true,
+            },
+            "attendees": NodesCollection {
+              "clientSidePageInfo": {
+                "lastQueriedPage": 1,
+                "pageSize": 2000,
+              },
+              "items": [
+                {
+                  "id": "635886",
+          
+                  "meetingInstanceAttendee": {
+                    "id": "635886",
+            
+                    "notesText": null,
+                    "type": "meetingInstanceAttendee",
+                    "user": {
+                      "avatar": null,
+                      "firstName": "Aleksandar",
+                      "fullName": "Aleksandar Cvijovic",
+                      "id": "635886",
+                      "lastName": "Cvijovic",
+              
+                      "type": "user",                     
+                    },                   
+                  },
+                  "type": "meetingAttendee",                 
+                },
+              ],
+              "loadingError": null,
+              "loadingState": "IDLE",
+              "nodes": [
+                {
+                  "id": "635886",
+          
+                  "meetingInstanceAttendee": {
+                    "id": "635886",
+            
+                    "notesText": null,
+                    "type": "meetingInstanceAttendee",
+                    "user": {
+                      "avatar": null,
+                      "firstName": "Aleksandar",
+                      "fullName": "Aleksandar Cvijovic",
+                      "id": "635886",
+                      "lastName": "Cvijovic",
+              
+                      "type": "user",                     
+                    },                   
+                  },
+                  "type": "meetingAttendee",              
+                },
+              ],
+              "onGoToNextPage": [Function],
+              "onGoToPreviousPage": [Function],
+              "onLoadMoreResults": [Function],
+              "onPaginationRequestStateChanged": [Function],
+              "pageInfoFromResults": {
+                "__typename": "PageInfo",
+                "endCursor": "MA==",
+                "hasNextPage": false,
+                "hasPreviousPage": false,
+                "startCursor": "MA==",
+              },
+              "pagesBeingDisplayed": [
+                1,
+              ],
+              "totalCount": undefined,
+              "useServerSidePaginationFilteringSorting": true,
+            },
+            "averageMeetingRating": 0,
+            "dateCreated": 1688391942,
+            "id": "1774635",
+            "issuesSolvedCount": 0,
+    
+            "meetingConcludedTime": 1688406792,
+            "meetingDurationInSeconds": 69,
+            "meetingStartTime": 1688406723,
+            "ratingPrivacy": "Anonymous",
+            "todosCompletedPercentage": 0,
+            "type": "meetingInstance",            
+          },
+        ],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": "MA==",
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": "MA==",
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "meetingPages": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649060",
+    
+            "order": 0,
+            "pageName": "Check-in",
+            "pageType": "CHECK_IN",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649061",
+    
+            "order": 1,
+            "pageName": "Goals",
+            "pageType": "GOALS",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649062",
+    
+            "order": 2,
+            "pageName": "Metrics",
+            "pageType": "METRICS",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649063",
+    
+            "order": 3,
+            "pageName": "Headlines",
+            "pageType": "HEADLINES",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649064",
+    
+            "order": 4,
+            "pageName": "To-dos",
+            "pageType": "TODOS",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",            
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 3600,
+            "externalPageUrl": null,
+            "id": "649065",
+    
+            "order": 5,
+            "pageName": "Issues",
+            "pageType": "ISSUES",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",            
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649066",
+    
+            "order": 6,
+            "pageName": "Wrap-up",
+            "pageType": "WRAP_UP",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",            
+          },
+        ],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649060",
+    
+            "order": 0,
+            "pageName": "Check-in",
+            "pageType": "CHECK_IN",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",            
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649061",
+    
+            "order": 1,
+            "pageName": "Goals",
+            "pageType": "GOALS",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649062",
+    
+            "order": 2,
+            "pageName": "Metrics",
+            "pageType": "METRICS",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649063",
+    
+            "order": 3,
+            "pageName": "Headlines",
+            "pageType": "HEADLINES",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649064",
+    
+            "order": 4,
+            "pageName": "To-dos",
+            "pageType": "TODOS",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 3600,
+            "externalPageUrl": null,
+            "id": "649065",
+    
+            "order": 5,
+            "pageName": "Issues",
+            "pageType": "ISSUES",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",            
+          },
+          {
+            "checkIn": {
+              "checkInType": "TRADITIONAL",
+              "iceBreaker": "",
+              "isAttendanceVisible": false,
+            },
+            "expectedDurationS": 300,
+            "externalPageUrl": null,
+            "id": "649066",
+    
+            "order": 6,
+            "pageName": "Wrap-up",
+            "pageType": "WRAP_UP",
+            "timer": {
+              "timeLastPaused": null,
+              "timeLastStarted": 0,
+              "timePreviouslySpentS": null,
+              "timeSpentPausedS": 0,
+            },
+            "type": "meetingPage",           
+          },
+        ],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": "Ng==",
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": "MA==",
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": 7,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "meetingType": "L10",
+      "metricTableColumnToIsVisibleSettings": {
+        "average": true,
+        "cumulative": true,
+        "goal": true,
+        "owner": true,
+      },
+      "metricTableWidthDragScrollPct": 0,
+      "metrics": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "name": "V3 Test Organization July Leadership Team",
+      "notes": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 3,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "preventEditingUnownedMetrics": false,
+      "priorityIssues": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "scheduledEndTime": 0,
+      "scheduledStartTime": 0,
+      "shortTermIssues": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "startAndEndOfWeekNumbersForLuxon": [Function],
+      "startOfWeekOverride": null,
+      "todos": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "type": "meeting",     
+    },
+    "users": NodesCollection {
+      "clientSidePageInfo": {
+        "lastQueriedPage": 1,
+        "pageSize": 2000,
+      },
+      "items": [
+        {
+          "avatar": null,
+          "firstName": "Aleksandar",
+          "fullName": "Aleksandar Cvijovic",
+          "id": "635886",
+          "lastName": "Cvijovic",
+  
+          "type": "user",         
+        },
+        {
+          "avatar": null,
+          "firstName": "Meida",
+          "fullName": "Meida Marques",
+          "id": "635889",
+          "lastName": "Marques",
+  
+          "type": "user",         
+        },
+        {
+          "avatar": null,
+          "firstName": "Alexxxx",
+          "fullName": "Alexxxx Ccvijovic",
+          "id": "635890",
+          "lastName": "Ccvijovic",
+  
+          "type": "user",          
+        },
+      ],
+      "loadingError": null,
+      "loadingState": "IDLE",
+      "nodes": [
+        {
+          "avatar": null,
+          "firstName": "Aleksandar",
+          "fullName": "Aleksandar Cvijovic",
+          "id": "635886",
+          "lastName": "Cvijovic",
+  
+          "type": "user",         
+        },
+        {
+          "avatar": null,
+          "firstName": "Meida",
+          "fullName": "Meida Marques",
+          "id": "635889",
+          "lastName": "Marques",
+  
+          "type": "user",         
+        },
+        {
+          "avatar": null,
+          "firstName": "Alexxxx",
+          "fullName": "Alexxxx Ccvijovic",
+          "id": "635890",
+          "lastName": "Ccvijovic",
+  
+          "type": "user",        
+        },
+      ],
+      "onGoToNextPage": [Function],
+      "onGoToPreviousPage": [Function],
+      "onLoadMoreResults": [Function],
+      "onPaginationRequestStateChanged": [Function],
+      "pageInfoFromResults": {
+        "__typename": "PageInfo",
+        "endCursor": "Mg==",
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": "MA==",
+      },
+      "pagesBeingDisplayed": [
+        1,
+      ],
+      "totalCount": undefined,
+      "useServerSidePaginationFilteringSorting": true,
+    },
+  },
+  "error": undefined,
+}
+`;

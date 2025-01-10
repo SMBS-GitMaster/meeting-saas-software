@@ -1,0 +1,4 @@
+
+> @mm/bloom-web@0.0.0 lint C:\Users\robra\Development\MeetingMaster\apps\bloom-web
+> eslint "**/*.{ts,tsx}" --config ../../libs/scripts/config/.eslintrc.cjs --ignore-pattern "**/*.spec.ts" --ignore-pattern "**/node_modules"
+

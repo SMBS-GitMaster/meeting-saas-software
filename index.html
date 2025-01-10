@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" style="font-size: 16px">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Bloom Software" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <!-- Start of HubSpot Embed Code -->
+    <script
+      type="text/javascript"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js.hs-scripts.com/9102865.js"
+    ></script>
+    <!-- End of HubSpot Embed Code -->
+    <script>
+      ;(function (apiKey) {
+        ;(function (p, e, n, d, o) {
+          var v, w, x, y, z
+          o = p[d] = p[d] || {}
+          o._q = o._q || []
+          v = ['initialize', 'identify', 'updateOptions', 'pageLoad', 'track']
+          for (w = 0, x = v.length; w < x; ++w)
+            (function (m) {
+              o[m] =
+                o[m] ||
+                function () {
+                  o._q[m === v[0] ? 'unshift' : 'push'](
+                    [m].concat([].slice.call(arguments, 0))
+                  )
+                }
+            })(v[w])
+          y = e.createElement(n)
+          y.async = !0
+          y.src =
+            'https://content.guides.bloomgrowth.com/agent/static/' +
+            apiKey +
+            '/pendo.js'
+          z = e.getElementsByTagName(n)[0]
+          z.parentNode.insertBefore(y, z)
+        })(window, document, 'script', 'pendo')
+      })('fe414a02-990e-4a50-5e65-655bfee68791')
+    </script>
+    <title>Bloom</title>
+  </head>
+  <body style="overflow: hidden">
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QH20VSPXGP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-QH20VSPXGP')
+    </script>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `pnpm dev`
+      To create a production bundle, use `pnpm build`
+    -->
+  </body>
+</html>

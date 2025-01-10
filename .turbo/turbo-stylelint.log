@@ -1,0 +1,7 @@
+
+> @mm/bloom-web@0.0.0 stylelint C:\Users\robra\Development\MeetingMaster\apps\bloom-web
+> stylelint "./**/*.{ts,tsx}" --config ../../libs/scripts/config/stylelint.config.cjs --syntax css-in-js
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme

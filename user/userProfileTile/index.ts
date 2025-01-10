@@ -1,0 +1,1 @@
+export { UserProfileTile } from './userProfileTile'

@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a request for the data required for the side nav works: side-nav-data 1`] = `
+{
+  "data": {
+    "user": {
+      "allMeetings": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [
+          {
+            "id": "89861",
+            "type": "meeting",
+          },
+          {
+            "id": "89876",
+            "type": "meeting",
+          },
+        ],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [
+          {
+            "id": "89861",
+            "type": "meeting",
+          },
+          {
+            "id": "89876",
+            "type": "meeting",
+          },
+        ],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": "MQ==",
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": "MA==",
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": 2,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "allWorkspaces": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [
+          {
+            "id": "140113",
+            "type": "workspace",
+          },
+          {
+            "id": "140113",
+            "type": "workspace",
+          },
+        ],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [
+          {
+            "id": "140113",
+            "type": "workspace",
+          },
+          {
+            "id": "140113",
+            "type": "workspace",
+          },
+        ],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": "MQ==",
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": "MA==",
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": 2,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "avatar": null,
+      "favoriteMeetings": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 4,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "favoriteWorkspaces": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 4,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": undefined,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "firstName": "Aleksandar",
+      "fullName": "Aleksandar Cvijovic",
+      "id": "635886",
+      "lastName": "Cvijovic",
+      "notifications": NodesCollection {
+        "clientSidePageInfo": {
+          "lastQueriedPage": 1,
+          "pageSize": 2000,
+        },
+        "items": [],
+        "loadingError": null,
+        "loadingState": "IDLE",
+        "nodes": [],
+        "onGoToNextPage": [Function],
+        "onGoToPreviousPage": [Function],
+        "onLoadMoreResults": [Function],
+        "onPaginationRequestStateChanged": [Function],
+        "pageInfoFromResults": {
+          "__typename": "PageInfo",
+          "endCursor": null,
+          "hasNextPage": false,
+          "hasPreviousPage": false,
+          "startCursor": null,
+        },
+        "pagesBeingDisplayed": [
+          1,
+        ],
+        "totalCount": 0,
+        "useServerSidePaginationFilteringSorting": true,
+      },
+      "orgSettings": {
+        "businessPlanId": "89861",
+        "id": "635885",
+        "type": "orgSettings",
+      },
+      "type": "user",
+    },
+  },
+  "error": undefined,
+}
+`;
